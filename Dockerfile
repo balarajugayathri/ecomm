@@ -1,5 +1,5 @@
 # Choose the Base Image To get Started
-FROM httpd:alpine
+FROM httpd:2-alpine
 
 # Copy the files to container
 COPY . /usr/local/apache2/htdocs/
